@@ -1,0 +1,6 @@
+[submodule "webservices"]
+	path = webservices
+	url = git@github.com:advisor-net/webservices.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:advisor-net/frontend.git

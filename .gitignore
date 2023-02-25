@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Other stuff
+.idea/
+.DS_Store
+postgres/data
+shared/

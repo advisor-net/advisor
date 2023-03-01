@@ -57,11 +57,12 @@ services:
   #   build:
   #     context: .
   #     dockerfile: ./docker/backend/Dockerfile
-  #   entrypoint: /app/docker/scheduler/scheduler-entrypoint.sh
   #   env_file:
   #     - ./webservices/.env
+  #   entrypoint: /app/docker/scheduler/scheduler-entrypoint.sh
   #   volumes:
   #     - ./shared:/tmp
+  #     - .:/app
   #   depends_on:
   #     - postgres
   #     - redis

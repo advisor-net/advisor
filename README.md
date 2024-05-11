@@ -28,6 +28,8 @@ If we were to come back to this project, we would:
 - Clone this repository
 - Run `git submodule init && git submodule update`
   - This repo points to commits of webservices and frontend
+- Run the following command to set up environment variables for backend
+  - `cp webservices/.env.example webservices/.env`
 - Make sure Docker is installed on your machine
 - Run `docker-compose up --build -d`
   - This may take a few minutes the first time you run it
@@ -35,7 +37,10 @@ If we were to come back to this project, we would:
   - Get into an interactive shell using `docker-compose exec backend bash`
   - Run the `simulate_dataset` management command using `python webservices/manage.py simulate_dataset`
 - Now create a superuser by running `python webservices/manage.py createsuperuser`
-- Now navigate to `frontend` and run `yarn start`
+- Now navigate to the `frontend` directory
+- Run the following command to set up environment variables for frontend
+  - `cp .env.example .env`
+- Run `yarn start`
   - This will take you to a login screen at `localhost:3000`
 - After logging in, you will be walked through the self-onboarding experience
 - Following the completion of setting up your profile, you are good to go!

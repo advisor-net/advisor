@@ -1,7 +1,7 @@
 # Advisor
 Advisor is an anonymous financial network all about improving the financial well-being of its users through peer-benchmarking, storytelling, and collaboration. 
 
-Think [Bravado]([url](https://bravado.co/home)) mixed with the [personal finance subreddit]([url](https://www.reddit.com/r/personalfinance/)), but totally anonymized.
+Think [Bravado](https://bravado.co/home) mixed with the [personal finance subreddit](https://www.reddit.com/r/personalfinance/), but totally anonymized.
 
 It consists of three main features:
 - A self-onboarding experience to set up your profile, offering insight into your current financial and demographic information
